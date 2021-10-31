@@ -7,7 +7,7 @@ import { setContext } from 'apollo-link-context'
 // import { ApolloProvider } from '@apollo/react-hooks';
 
 const httpLink = createHttpLink({
-    uri: 'http://localhost:5000'
+    uri: 'https://grim-labyrinth-47560.herokuapp.com/'
 })
 
 const authLink = setContext(() => {
